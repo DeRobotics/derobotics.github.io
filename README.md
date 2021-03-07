@@ -1,2 +1,3 @@
 # DPU-ROB.github.io
-DePauw Robotics Club Website
+<p>DePauw Robotics Club Website</p>
+<p>To visit the website click <a href="https://DPU-ROB.github.io">here</a>.</p>
