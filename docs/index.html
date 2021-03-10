@@ -7,14 +7,62 @@
 </head>
 
 <style>
-	<!-- You can put the style section into a separate sheet if you want to. I will most likely do that eventually. -->
+<!-- You can put the style section into a separate sheet if you want to. I will most likely do that eventually. -->
 	body {
-		background: lightgray;
-		font-family: "Lato", sans-serif;
+		height: 125vh;
+		background-color: white;
+		background-size: cover;
+		font-family: sans-serif;
+		margin-top: 80px;
 	}
 	
 	h1 {
 		text-align: center;
+	}
+	
+	header img {
+		margin-left: 40px;
+		height: 80px;
+	}
+	
+	header {
+		background-color: white;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 80px;
+		display: flex;
+		align-items: center;
+		box-shadow: 0 0 25px 0 black;
+	}
+	
+	header * {
+		display: inline;
+	}
+	
+	header ul {
+	}
+	
+	header li {
+		text-align: center;
+		border-bottom: 1px solid rgb(0, 0, 0);
+		margin: 20px;
+	}
+	
+	header li a {
+		color: black;
+		text-decoration: none;
+		padding: 9px;
+	}
+	
+	li a:hover {
+		color: blue;
+	}
+	
+	main {
+		background: lightgray;
+		padding-left: 50px;
 	}
 	
 	.contact-container {
@@ -23,18 +71,35 @@
         background: white;
         position: absolute;
         text-align: center;
+		padding: 20px;
 	}
 </style>
 
 <body>
-	<h1>DePauw Robotics Club</h1>
+
+	<header>
+		<img src="example.png"><!-- you can add the logo here <img src="">-->
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#workshop">Workshops</a></li>
+				<li><a href="#project">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
 	
-	<!-- Contact Section -->
-	<div class="contact-container"id="contact">
-		<h2>CONTACT</h2>
-		<p><i>Questions? Contact us here:</i></p>
-		<i style="width:30px"> </i> Email: robotics_club@depauw.edu<br>
-	</div>
+	<main>
+		<br><h1>Welcome to the DePauw Robotics Club Webpage!</h1><br>
+		Lorem ipsum.
+					
+		<!-- Contact Section -->
+		<div class="contact-container"id="contact">
+			<h2>CONTACT</h2>
+			<p><i>Questions? Contact us here:</i></p>
+			<i style="width:30px"> </i> Email: robotics_club@depauw.edu<br>
+		</div>
+	</main>
 </body>
 	
 </html>
