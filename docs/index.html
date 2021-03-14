@@ -74,12 +74,13 @@
         text-align: center;
 		padding: 20px;
 		margin-left: -70px; <!-- -20 for padding and -50 for main padding -->
-}
+	}
 
-textarea {
-  width: 300px;
-  height: 150px;
-}
+	#message {
+ 	 width: 300px;
+  	 height: 150px;
+	}
+
 </style>
 
 <body>
@@ -108,13 +109,13 @@ textarea {
 		  <h3><i>Or contact us Below</i></h3>
 		  <form>
 		     <label for="first_name">First Name: </label>
-		     <input type="text" name="first_name">
+		     <input type="text" id="first_name">
 		     <label for="last_name">Last Name: </label>
-		     <input type="text" name="last_name">
+		     <input type="text" id="last_name">
 		     <label for="subject">Subject: </label>
-		     <input type="test" name="subject">
+		     <input type="test" id="subject">
 		     <label for="message">Message: </label>
-		     <textarea name="message"></textarea>
+		     <textarea id="message"></textarea>
 		  </form>
 		</div>
 	</main>
