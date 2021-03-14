@@ -17,37 +17,40 @@ header img {
 }
 
 header {
-    background-color: white;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+}
+
+header, footer {
+    background-color: white;
     height: 80px;
     display: flex;
     align-items: center;
     box-shadow: 0 0 25px 0 black;
 }
 
-header * {
+header * , footer * {
     display: inline;
 }
 
-header ul {
+header ul , footer ul{
 }
 
-header li {
+header li, footer li {
     text-align: center;
     border-bottom: 1px solid rgb(0, 0, 0);
     margin: 20px;
 }
 
-header li a {
+header li a, footer li a {
     color: black;
     text-decoration: none;
     padding: 9px;
 }
 
-li a:hover {
+footer li a:hover, header li a:hover{
     color: blue;
 }
 
@@ -56,6 +59,7 @@ main {
     padding-left: 50px;
 }
 
+/* Dont use this for now but keep this for later 
 .contact-container {
     min-height: 100%;
     min-width: 100%;
@@ -66,15 +70,4 @@ main {
     margin-left: -70px; <!-- -20 for padding and -50 for main padding -->
 }
 
-#message {
-    width: 300px;
-    height: 150px;
-}
-
-footer{
-    background-color: white;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    box-shadow: 0 0 25px 0 black;
-}
+*/
