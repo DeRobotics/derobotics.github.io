@@ -64,7 +64,7 @@
 	main {
 		background: lightgray;
 		padding-left: 50px;
-	}
+        }
 	
 	.contact-container {
 		min-height: 100%;
@@ -74,7 +74,12 @@
         text-align: center;
 		padding: 20px;
 		margin-left: -70px; <!-- -20 for padding and -50 for main padding -->
-	}
+}
+
+textarea {
+  width: 300px;
+  height: 150px;
+}
 </style>
 
 <body>
@@ -109,7 +114,7 @@
 		     <label for="subject">Subject: </label>
 		     <input type="test" name="subject">
 		     <label for="message">Message: </label>
-		     <textarea name="message" rows="20" cols="120"></textarea>
+		     <textarea name="message"></textarea>
 		  </form>
 		</div>
 	</main>
