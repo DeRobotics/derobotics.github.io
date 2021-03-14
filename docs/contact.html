@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf8">
+	<title>DPU Robotics</title>
+	<link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+
+	<header>
+		<img src="example.png"><!-- you can add the logo here <img src="">-->
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="workshop.html">Workshops</a></li>
+				<li><a href="project.html">Projects</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		  <h1>Contact Information</h1>
+		  <h2>Questions? Email us here at: <i>robotics_club@depauw.edu</i></h3>
+		  <h3><i>Or contact using the form below: </i></h3>
+		  <!-- Formspree is s website that allows static webpages to use Emails via form submission. It is submitted as a post request to the formspree endpoint shown below in the form html elements and then forwarded to the email assosciated with the endpoint in this case the dpu robotics email-->
+		  	<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xwkwgwop" method="post">
+  				<fieldset id="fs-frm-inputs">
+    				<label for="full-name">Full Name: </label>
+    				<input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+    				<input type="hidden" name="_subject" id="email-subject" value="Website Contact Notification Email">
+    				<label for="email-address">Email Address: </label>
+    				<input type="email" name="_replyto" id="email-address" placeholder="your@email.here" required="">
+    				<label for="message">Message: </label>
+    				<textarea rows="5" name="message" id="message" placeholder="Type your message here" required=""></textarea>
+  				</fieldset>
+  				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</main>
+
+	<footer>
+	  <a href="contact.html">Contact Us</a>
+	</footer>
+</body>
+</html>

@@ -1,126 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-<head>
-	<meta charset="utf8">
-	<title>DPU Robotics</title>
-</head>
+  <head>
+    <meta charset="utf8">
+    <title>DPU Robotics</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
 
-<style>
-<!-- You can put the style section into a separate sheet if you want to. I will most likely do that eventually. -->
-	body {
-		height: 125vh;
-		background-color: white;
-		background-size: cover;
-		font-family: sans-serif;
-		margin-top: 80px;
-	}
-	
-	h1 {
-		margin-top: 80px;
-		text-align: center;
-	}
-	
-	header img {
-		margin-left: 40px;
-		height: 80px;
-	}
-	
-	header {
-		background-color: white;
-		position: fixed;
-		top: 0;
-		left: 0;
-		right: 0;
-		height: 80px;
-		display: flex;
-		align-items: center;
-		box-shadow: 0 0 25px 0 black;
-	}
-	
-	header * {
-		display: inline;
-	}
-	
-	header ul {
-	}
-	
-	header li {
-		text-align: center;
-		border-bottom: 1px solid rgb(0, 0, 0);
-		margin: 20px;
-	}
-	
-	header li a {
-		color: black;
-		text-decoration: none;
-		padding: 9px;
-	}
-	
-	li a:hover {
-		color: blue;
-	}
-	
-	main {
-		background: lightgray;
-		padding-left: 50px;
-        }
-	
-	.contact-container {
-		min-height: 100%;
-		min-width: 100%;
-        background: white;
-        position: absolute;
-        text-align: center;
-		padding: 20px;
-		margin-left: -70px; <!-- -20 for padding and -50 for main padding -->
-	}
+  <body>
 
-	#message {
- 	 width: 300px;
-  	 height: 150px;
-	}
+    <header>
+      <img src="example.png"><!-- you can add the logo here <img src="">-->
+      <nav>
+	<ul>
+	  <li><a href="index.html">Home</a></li>
+	  <li><a href="workshop.html">Workshops</a></li>
+	  <li><a href="project.html">Projects</a></li>
+	  <li><a href=".announcements">Announcements</a></li>
+	  <li><a href=".important-dates">Important Dates</a></li>
+	  <li><a href=".our-software">Our Software</a></li>
+	</ul>
+      </nav>
+    </header>
+    
+    <main>
+      <br><h1>Welcome to the DePauw Robotics Club Webpage!</h1><br>
+      
+      <section class="announcements">
+	<h2>Announcements</h2>
+	<!-- Here we will list announcements for the robotics club. It will kind of -->
 
-</style>
+	<section>
 
-<body>
+	  <section class="important-dates">
+	    <h2>Important Dates</h2>
+	    <!-- Here we will list up and coming workshop dates-->
 
-	<header>
-		<img src="example.png"><!-- you can add the logo here <img src="">-->
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#workshop">Workshops</a></li>
-				<li><a href="#project">Projects</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
-	
-	<main>
-		<br><h1>Welcome to the DePauw Robotics Club Webpage!</h1><br>
-		Lorem ipsum.
-					
-		<!-- Contact Section -->
-		<div class="contact-container"id="contact">
-		  <h2>CONTACT</h2>
-		  <h3><i>Questions? Contact us here:</i></h3>
-		  <h3><i style="width:30px"> </i> Email: robotics_club@depauw.edu<br></h3>
-		  <h3><i>Or contact us Below: </i></h3>
-		  <!-- Formspree is s website that allows static webpages to use Emails via form submission. It is submitted as a post request to the formspree endpoint shown below  in the form html elements and then forwarded to the email assosciated with the endpoint in this case the dpu robotics email-->
-		  	<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xwkwgwop" method="post">
-  				<fieldset id="fs-frm-inputs">
-    				<label for="full-name">Full Name: </label>
-    				<input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-    				<input type="hidden" name="_subject" id="email-subject" value="Website Contact Notification Email">
-    				<label for="email-address">Email Address: </label>
-    				<input type="email" name="_replyto" id="email-address" placeholder="your@email.here" required="">
-    				<label for="message">Message: </label>
-    				<textarea rows="5" name="message" id="message" placeholder="Type your message here" required=""></textarea>
-  				</fieldset>
-  				<input type="submit" value="Submit">
-			</form>
-		</div>
-	</main>
-</body>
+	    <section>
+
+	      <section class="our-software">
+		<h2>Our Software</h2>
+		<!-- Here we will put a bunch of pictures of like arduino and rasberry pi ... etc-->
+
+		<section>
+
+    </main>
+
+    <!-- In the footer it will grant access to two more sections the about us and contact section. -->
+
+    <footer>
+      <nav>
+	<ul>
+	  <a href="contact.html">Contact Us</a>
+	  <a href="about.html">About Us</a>
+	</ul>
+      </nav>
+    </footer>
+
+  </body>
+
 </html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf8">
+	<title>DPU Robotics</title>
+</head>
+
+<style>
+<!-- You can put the style section into a separate sheet if you want to. I will most likely do that eventually. -->
+	body {
+		height: 125vh;
+		background-color: white;
+		background-size: cover;
+		font-family: sans-serif;
+		margin-top: 80px;
+	}
+	
+	h1 {
+		margin-top: 80px;
+		text-align: center;
+	}
+	
+	header img {
+		margin-left: 40px;
+		height: 80px;
+	}
+	
+	header {
+		background-color: white;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 80px;
+		display: flex;
+		align-items: center;
+		box-shadow: 0 0 25px 0 black;
+	}
+	
+	header * {
+		display: inline;
+	}
+	
+	header ul {
+	}
+	
+	header li {
+		text-align: center;
+		border-bottom: 1px solid rgb(0, 0, 0);
+		margin: 20px;
+	}
+	
+	header li a {
+		color: black;
+		text-decoration: none;
+		padding: 9px;
+	}
+	
+	li a:hover {
+		color: blue;
+	}
+	
+	main {
+		background: lightgray;
+		padding-left: 50px;
+        }
+	
+	.contact-container {
+		min-height: 100%;
+		min-width: 100%;
+                background: white;
+                position: absolute;
+                text-align: center;
+		padding: 20px;
+		margin-left: -70px; <!-- -20 for padding and -50 for main padding -->
+	}
+
+	#message {
+ 	 width: 300px;
+  	 height: 150px;
+	}
+
+	footer{
+		background-color: white;
+		height: 80px;
+		display: flex;
+		align-items: center;
+		box-shadow: 0 0 25px 0 black;
+	}
+
+</style>
+
+<body>
+
+	<header>
+		<img src="example.png"><!-- you can add the logo here <img src="">-->
+		<nav>
+			<ul>
+				<li><a href="index.html/#">Home</a></li>
+				<li><a href="index.html/#workshop">Workshops</a></li>
+				<li><a href="index.html/#project">Projects</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		  <h1>Contact Information</h1>
+		  <h2>Questions? Email us here at: <i>robotics_club@depauw.edu</i></h3>
+		  <h3><i>Or contact using the form below: </i></h3>
+		  <!-- Formspree is s website that allows static webpages to use Emails via form submission. It is submitted as a post request to the formspree endpoint shown below in the form html elements and then forwarded to the email assosciated with the endpoint in this case the dpu robotics email-->
+		  	<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xwkwgwop" method="post">
+  				<fieldset id="fs-frm-inputs">
+    				<label for="full-name">Full Name: </label>
+    				<input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+    				<input type="hidden" name="_subject" id="email-subject" value="Website Contact Notification Email">
+    				<label for="email-address">Email Address: </label>
+    				<input type="email" name="_replyto" id="email-address" placeholder="your@email.here" required="">
+    				<label for="message">Message: </label>
+    				<textarea rows="5" name="message" id="message" placeholder="Type your message here" required=""></textarea>
+  				</fieldset>
+  				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</main>
+
+	<footer>
+	  <a href="contact.html">Contact Us</a>
+	</footer>
+</body>
+</html>
