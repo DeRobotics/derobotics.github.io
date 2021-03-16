@@ -99,7 +99,16 @@ main {
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;} 
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+#fs-frm *{
+    display: block;
+}
+
+#message {
+    width: 50%;
+    height: 50%;
+}
 
 /* Dont use this for now but keep this for later 
 .contact-container {
