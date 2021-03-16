@@ -13,11 +13,34 @@
       <img src="example.png"><!-- you can add the logo here <img src="">-->
       <nav>
 	<ul>
-	  <li><a href="index.html">Home</a></li>
-	  <li><a href="workshop.html">Workshops</a></li>
-	  <li><a href="project.html">Projects</a></li>
-	  <li><a href="#cur">Current Projects</a></li>
-	  <li><a href="#past">Past Projects</a></li>
+	 <li>
+	    <div class="dropdown">
+	      <a href="index.html">Home</a>
+	      <div class="dropdown-content">
+		<a href="index.html#announcements">Announcements</a>
+		<a href="index.html#important-dates">Important Dates</a>
+		<a href="index.html#our-software">Our Software</a>
+	      </div>
+	    </div>
+	  </li>
+	  <li>
+	    <div class="dropdown">
+	      <a href="project.html">Projects</a>
+	      <div class="dropdown-content">
+		<a href="#cur">Current Projects</a>
+		<a href="#past">Past Projects</a>
+	      </div>
+	    </div>
+	  </li>
+	  <li>
+	    <div class="dropdown">
+	      <a href="workshop.html">Workshops</a>
+	      <div class="dropdown-content">
+		<a href="workshop.html#dates">Workshop Dates</a>
+		<a href="workshop.html#descriptions">Workshop Descriptions</a>
+	      </div>
+	    </div>
+	  </li>
 	</ul>
       </nav>
     </header>
