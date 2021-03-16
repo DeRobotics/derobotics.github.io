@@ -1,48 +1,73 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-	<meta charset="utf8">
-	<title>DPU Robotics</title>
-	<link rel="stylesheet" href="stylesheet.css">
-</head>
+  <head>
+    <meta charset="utf8">
+    <title>DPU Robotics</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
 
-<body>
+  <body>
 
-	<header>
-		<img src="example.png"><!-- you can add the logo here <img src="">-->
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="workshop.html">Workshops</a></li>
-				<li><a href="project.html">Projects</a></li>
-			</ul>
-		</nav>
-	</header>
-	
-	<main>
-		  <h1>Contact Information</h1>
-		  <h2>Questions? Email us here at: <i>robotics_club@depauw.edu</i></h3>
-		  <h3><i>Or contact us using the form below: </i></h3>
-		  <!-- Formspree is s website that allows static webpages to use Emails via form submission. It is submitted as a post request to the formspree endpoint shown below in the form html elements and then forwarded to the email assosciated with the endpoint in this case the dpu robotics email-->
-		  	<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xwkwgwop" method="post">
-  				<fieldset id="fs-frm-inputs">
-    				<label for="full-name">Full Name: </label>
-    				<input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-    				<input type="hidden" name="_subject" id="email-subject" value="Website Contact Notification Email">
-    				<label for="email-address">Email Address: </label>
-    				<input type="email" name="_replyto" id="email-address" placeholder="your@email.here" required="">
-    				<label for="message">Message: </label>
-    				<textarea rows="5" name="message" id="message" placeholder="Type your message here" required=""></textarea>
-  				</fieldset>
-  				<input type="submit" value="Submit">
-			</form>
-		</div>
-	</main>
+    <header>
+      <img src="example.png"><!-- you can add the logo here <img src="">-->
+      <nav>
+	<ul>
+	  <li>
+	    <div class="dropdown">
+	      <a href="index.html">Home</a>
+	      <div class="dropdown-content">
+		<a href="index.html#announcements">Announcements</a>
+		<a href="index.html#important-dates">Important Dates</a>
+		<a href="index.html#our-software">Our Software</a>
+	      </div>
+	    </div>
+	  </li>
+	  <li>
+	    <div class="dropdown">
+	      <a href="project.html">Projects</a>
+	      <div class="dropdown-content">
+		<a href="project.html#cur">Current Projects</a>
+		<a href="project.html#past">Past Projects</a>
+	      </div>
+	    </div>
+	  </li>
+	  <li>
+	    <div class="dropdown">
+	      <a href="workshop.html">Workshops</a>
+	      <div class="dropdown-content">
+		<a href="workshop.html#dates">Workshop Dates</a>
+		<a href="workshop.html#descriptions">Workshop Descriptions</a>
+	      </div>
+	    </div>
+	  </li>
+	</ul>
+      </nav>
+    </header>
+    
+    <main>
+      <h1>Contact Information</h1>
+      <h2>Questions? Email us here at: <i>robotics_club@depauw.edu</i></h3>
+<h3><i>Or contact us using the form below: </i></h3>
+<!-- Formspree is s website that allows static webpages to use Emails via form submission. It is submitted as a post request to the formspree endpoint shown below in the form html elements and then forwarded to the email assosciated with the endpoint in this case the dpu robotics email-->
+<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xwkwgwop" method="post">
+  <fieldset id="fs-frm-inputs">
+    <label for="full-name">Full Name: </label>
+    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+    <input type="hidden" name="_subject" id="email-subject" value="Website Contact Notification Email">
+    <label for="email-address">Email Address: </label>
+    <input type="email" name="_replyto" id="email-address" placeholder="your@email.here" required="">
+    <label for="message">Message: </label>
+    <textarea rows="5" name="message" id="message" placeholder="Type your message here" required=""></textarea>
+  </fieldset>
+  <input type="submit" value="Submit">
+</form>
+</div>
+</main>
 
-	<footer>
-	  <a href="contact.html">Contact Us</a>
-	  <a href="about.html">About Us</a>
-	</footer>
+<footer>
+  <a href="contact.html">Contact Us</a>
+  <a href="about.html">About Us</a>
+</footer>
 </body>
 </html>
