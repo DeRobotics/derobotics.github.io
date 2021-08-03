@@ -99,7 +99,7 @@ const sr = ScrollReveal({
 
 sr.reveal(`.home__data, .home__img,
             .about__data, .about__img,
-            .workshops__content, .menu__content,
+            .workshops__content, .projects__content,
             .contact__data, .contact__button`, {
     interval: 200
 })
