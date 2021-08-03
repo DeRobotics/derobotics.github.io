@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== ICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+		<!--==================== FAVICONS ====================-->
+		<link rel="icon" href="assets/img/favicon_io/favicon.ico">
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>DeRobotics | DPU</title>
+    </head>
+    <body>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class="uil uil-angle-up scrolltop__icon"></i>
+        </a>
+
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="index.html" class="nav__logo">DeRobotics</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#workshops" class="nav__link">Workshops</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+
+                        <li><i class="uil uil-moon change-theme" id="theme-button"></i></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-bars"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--========== HOME ==========-->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__data">
+                        <h1 class="home__title">Hello</h1>
+                        <h2 class="home__subtitle">Welcome to<br>DeRobotics Club.</h2>
+                        <a href="#workshops" class="button">View Workshops</a>
+                    </div>
+    
+                    <img src="assets/img/home.png" alt="" class="home__img">
+                </div>
+            </section>
+            
+            <!--========== ABOUT ==========-->
+            <section class="about section bd-container" id="about">
+                <div class="about__container  bd-grid">
+                    <div class="about__data">
+                        <span class="section-subtitle about__initial">About us</span>
+                        <h2 class="section-title about__initial">We are <br> DeRobotics Club.</h2>
+                        <p class="about__description">DeRobotics Club aims to establish a platform for students interested in robotics. Members are provided with free tools and parts to work on whatever projects they wish.</p>
+                        <a href="#" class="button">Explore history</a>
+                    </div>
+
+                    <img src="assets/img/about.jpg" alt="about-img" class="about__img">
+                </div>
+            </section>
+
+            <!--========== Workshops ==========-->
+            <section class="workshops section bd-container" id="workshops">
+                <span class="section-subtitle">Let's join</span>
+                <h2 class="section-title">Our Amazing Workshops</h2>
+				<h3 class="section-subtitle">Coming soon...</h3>
+				<!-- Message for Coming Soon -->
+                <div style="text-align: center;padding-top: 2rem;">
+                    <img src="https://media.giphy.com/media/KQWljR15LBQJHlg8Vo/giphy.gif" alt="" class="workshops__img">
+                </div>
+                <!-- <div class="workshops__container  bd-grid">
+                    <div class="workshops__content">
+                        <h3 class="workshops__title">Enforcement</h3>
+                        <p class="workshops__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim culpa neque quidem tenetur, reprehenderit optio vel eos in obcaecati itaque dolorem est, totam, eum provident nesciunt quae ipsum maxime exercitationem?</p>
+                    </div>
+
+                </div> -->
+            </section>
+
+            <!--========== Projects ==========-->
+            <section class="projects section bd-container" id="projects">
+                <span class="section-subtitle">Current</span>
+                <h2 class="section-title">Projects of the Year</h2>
+
+                <div class="projects__container bd-grid">
+                    <div class="projects__content">
+                        <img src="assets/img/project1.png" alt="" class="projects__img">
+                        <h3 class="projects__name">Syringe Pump</h3>
+                        <span class="projects__detail">Making a syringe pump for the Chemistry Department</span>
+                        <a href="#contact" class="button projects__button">Join Us</a>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--========== CONTACT US ==========-->
+            <section class="contact section" id="contact">
+				<span class="section-subtitle">Let's talk</span>
+                <h2 class="section-title">Contact us</h2>
+                <p class="contact__description">If you have a project, please contact us.</p>
+
+                <div class="contact__container bd-container bd-grid">
+                        <div>
+							<div class="contact__information">
+								<i class="uil uil-phone contact__icon"></i>
+		
+								<div>
+									<h3 class="contact__title">Phone</h3>
+									<span class="contact__subtitle">123-456-789</span>
+								</div>
+							</div>
+		
+							<div class="contact__information">
+                                <i class="uil uil-envelope contact__icon"></i>
+		
+								<div>
+									<h3 class="contact__title">Email</h3>
+									<span class="contact__subtitle" id="contact__email">robotics_club@depauw.edu</span>
+								</div>
+							</div>
+		
+							<div class="contact__information">
+                                <i class="uil uil-map-marker contact__icon"></i>
+		
+								<div>
+									<h3 class="contact__title">Location</h3>
+									<span class="contact__subtitle">408. South Locust Street, Greencastle, IN 46135, US</span>
+								</div>
+							</div>
+						</div>
+		
+		
+						<form accept-charset="utf-8" action="https://formspree.io/f/xwkwgwop" class="contact__form bd-grid" method="POST">
+							<div class="contact__inputs bd-grid">
+								<div class="contact__content">
+									<label for="" class="contact__label">Name</label>
+									<input name="name" type="text" class="contact__input" required>
+								</div>
+								<div class="contact__content">
+									<label for="" class="contact__label">Email</label>
+									<input name="email" type="email" class="contact__input" required>
+								</div>
+							</div>
+							<div class="contact__content">
+								<label for="" class="contact__label">Project</label>
+								<input name="project" type="text" class="contact__input" required>
+							</div>
+							<div class="contact__content">
+								<label for="" class="contact__label">Message</label>
+								<textarea name="message" id="" cols="0" rows="7" class="contact__input" required></textarea>
+							</div>
+		
+							<div>
+								<button class="button contact__button" type="submit">
+									Send Message
+									<i class="uil uil-message button__icon"></i>
+								</button>
+							</div>
+						</form>
+                </div>
+            </section>
+        </main>
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section bd-container">
+            <div class="footer__container bd-grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">DeRobotics</a>
+                    <span class="footer__description">Student Club</span>
+                    <div>
+                        <a href="https://twitter.com/depauwrobotics?lang=en" class="footer__social" target="_blank"><i class="uil uil-twitter"></i></a>
+                        <a href="https://www.instagram.com/derobotics/" class="footer__social" target="_blank"><i class="uil uil-instagram-alt"></i></a>
+                        <a href="https://github.com/DeRobotics" class="footer__social" target="_blank"><i class="uil uil-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <ul class="footer__links">
+						<li>
+							<a href="#about" class="footer__link">About</a>
+						</li>
+						<li>
+							<a href="#workshops" class="footer__link">Workshops</a>
+						</li>
+						<li>
+							<a href="#projects" class="footer__link">Projects</a>
+						</li>
+						<li>
+							<a href="#contact" class="footer__link">Contact</a>
+						</li>
+					</ul>
+                </div>
+			</div>
+            <p class="footer__copy">&#169; 2021 DeRobotics. All right reserved</p>
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
